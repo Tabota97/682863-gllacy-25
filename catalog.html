@@ -35,14 +35,16 @@
           <h1 class="page-title">Сливочное мороженое</h1>
             <section class="filters">
               <h2 class="visually-hidden">Фильтры товаров</h2>
-              <form action="/echo" method="post">
+              <form action="/echo" method="post"></form>
                 <div class="filter-sorting">
                   <p>
                     <label for="sorting">Сортировка</label><br>
                   </p>
                 <select id="sorting" name="sorting">
                   <option value="popularity">по популярности</option>
-                  <option value="price">по цене</option>
+                  <option value="price">сначала недорогие</option>
+                  <option>сначала дорогие</option>
+                  <option>по жирности</option>
                 </select>
                 </div>
                 <div class="filter-price">
